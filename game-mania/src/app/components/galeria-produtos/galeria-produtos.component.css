@@ -1,0 +1,94 @@
+* {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* galeria */
+
+.galeria {
+  display: flex;
+  padding: 15px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  padding: 0px;
+  background-color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 80%;
+  min-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.galeria-xbox {
+  background-color: #7eb900;
+  margin-bottom: 20px;
+}
+
+.galeria-playstation {
+  background-color: #003d91;
+  margin-bottom: 20px;
+}
+
+.galeria-nintendo {
+  background-color: #e8442e;
+  margin-bottom: 20px;
+}
+
+/* faixa */
+
+.faixa-logo {
+  height: 70px;
+  padding: 5px;
+  display: flex;  
+  justify-content: center;
+}
+
+.faixa-logo img {
+  margin-top: 5px;
+  width: 60px;
+}  
+
+.cor-xbox {
+  background-color: #7eb900;
+}
+
+.cor-playstation {
+  background-color: #003d91;  
+}
+
+.cor-nintendo {
+  background-color: #e8442e;
+}
+
+@media screen and (max-width:559px){
+  .visivel-560 {
+    display: none;
+  }
+} 
+
+@media screen and (max-width:1023px){
+  .visivel-1024 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1259px){
+  .visivel-1260 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1559px){
+  .visivel-1560 {
+    display: none;
+  }
+}

@@ -1,0 +1,51 @@
+.container {
+  margin-left: 30px;
+}
+
+.table {
+  display: table;
+  width: auto;
+}
+
+.table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+
+.linha-cor {
+  background-color: black;  
+}
+
+.table-col {
+  float: left;
+  display: table-column;
+  width: 250px;
+  text-align: center;
+}
+
+.titulo {
+  color:white;
+}
+
+h2 {
+  margin-left: 30px;
+  color: red;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.link {
+  text-align: center;
+}
+
+.mat-raised-button {
+  background-color: black;
+  color: white;
+}
+
+.mat-raised-button:hover {
+  color: white;
+  background-color: #0d6efd;
+}
+

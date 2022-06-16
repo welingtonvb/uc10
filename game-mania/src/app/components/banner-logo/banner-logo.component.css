@@ -1,0 +1,44 @@
+* {
+  line-height: 20px;
+}
+
+/* banner logo */
+
+.logo {
+  height: 90px;
+  background-color: black;
+  max-width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.logo h2 {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.logo p {
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.logo-texto {
+  margin-top: 5px;
+  margin-left: 20px;
+  text-align: start;
+}
+
+@media screen and (max-width:559px){
+  .logo p {
+    font-size: 9.5px;
+  }
+} 

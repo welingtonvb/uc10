@@ -1,0 +1,24 @@
+* {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* banner ovidade */
+
+.novidade-produto {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mat-raised-button {
+  color: white;
+  background-color: black;
+}
+
+.mat-raised-button:hover {
+  color: white;
+  background-color: #0d6efd;
+}

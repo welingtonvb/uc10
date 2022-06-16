@@ -1,0 +1,16 @@
+<div class="formulario">
+  <h1>Sua opnião é importante!</h1>
+  <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required [(ngModel)]="opiniaoModel.nome" >
+    <br>
+    <label for="texto">Sua opnião:</label><br>
+    <textarea type="text" id="texto" name="texto" required [(ngModel)]="opiniaoModel.opiniao">
+    </textarea><br>
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+
+<div>
+  <a routerLink="">Volta a home</a>
+</div>

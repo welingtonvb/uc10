@@ -1,0 +1,32 @@
+<div class="faixa-cliente">
+  <a routerLink="conta">
+    <img src="../../../assets/img/destaque/cliente-100x100.svg" alt="Cliente">
+  </a>  
+  <h2>Opnião de nossos clientes</h2>          
+</div>
+
+<div class="faixa">
+
+  <div id="carouselExampleSlidesOnly" class="carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h3>{{cliente1.getNome()}}</h3>
+        <p>"{{cliente1.getOpiniao()}}"</p>
+      </div>
+      <div class="carousel-item">
+        <h3>{{cliente2.getNome()}}</h3>
+        <p>"{{cliente2.getOpiniao()}}"</p>
+      </div>
+      <div class="carousel-item">
+        <h3>{{cliente3.getNome()}}</h3>
+        <p>"{{cliente3.getOpiniao()}}"</p>
+      </div>
+      <div class="carousel-item">
+        <h3>{{cliente4.getNome()}}</h3>
+         <p>"{{cliente4.getOpiniao()}}"</p>
+      </div>                
+    </div>
+  </div>
+  <button routerLink="contato" mat-raised-button>Deixe sua opnião</button>
+</div>
+

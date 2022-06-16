@@ -1,0 +1,82 @@
+dl, dt, dd, ol, ul, li{
+	padding: 0;
+}
+
+/* rodape */
+
+.rodape {
+  background-color: black;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.rodape a {
+  color: white;
+}
+
+.rodape a:hover {
+  color: #0d6efd;
+}
+
+.rodape-linha1 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.rodape-linha1 h2 {
+  font-size: 20px;
+}  
+
+.institucional a {
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.ajuda-suporte a {
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.fale-conosco li {
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.forma-pagamento {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.forma-pagamento img {
+  width: 60px;
+}
+
+.redes-sociais {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+}
+
+.redes-sociais img {
+  width: 50px;
+}
+
+@media screen and (max-width:559px){
+  .visivel {
+    display: none;
+  }
+
+  .rodape-linha1 {
+    flex-direction: column;
+  }
+}
+

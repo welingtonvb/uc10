@@ -1,0 +1,25 @@
+* {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* banner sobre */
+
+.banner-sobre {
+  background-color: white;
+  padding: 0px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+}
+
+.banner-sobre h1 {
+  font-size: 30px;
+}
+
+.banner-sobre p {
+  font-size: 20px;
+  line-height: 40px;
+}
+

@@ -1,0 +1,69 @@
+* {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+div {
+  box-sizing: content-box;
+}
+
+/* destaque produtos */
+
+.produto-card-redondo {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 8px solid;
+  border-radius: 50%;
+}
+
+.pcr-px img {
+  border-radius: 20%;
+  width: 66px;
+  height: 132px;
+}
+
+.pcr-perc img {
+  border-radius: 20%;
+  width: 85%;
+  height: 85%;
+}
+
+.pcr-xbox {
+  border-color: #7eb900;
+}
+
+.pcr-psn {
+  border-color: #003d91;
+}
+
+.pcr-nintendo {
+  border-color: #e8442e;
+}
+
+.pcr-telefone {
+  border-color:black;
+}
+
+.destaque-produtos {
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+}
+
+@media screen and (max-width:767px){
+  .visivel {
+    display: none;
+  }
+}

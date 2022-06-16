@@ -1,0 +1,28 @@
+<h2>Pcs</h2>
+<div class="container">
+  <div class="table">
+    <div class="table-row linha-cor">
+      <div class="table-col titulo">Código</div>  
+      <div class="table-col titulo">Marca</div> 
+      <div class="table-col titulo">Nome</div> 
+      <div class="table-col titulo">Descrição</div> 
+      <div class="table-col titulo">Preço</div> 
+    </div>  
+  </div>  
+  <div class="table">
+    <div class="table-row">
+      <div *ngFor="let pc of listaPc">
+        <div class="table-col">{{pc.id}}</div>  
+        <div class="table-col">{{pc.marca}}</div> 
+        <div class="table-col">{{pc.nome}}</div> 
+        <div class="table-col">{{pc.descricao}}</div> 
+        <div class="table-col">{{pc.preco}}</div> 
+      </div>  
+    </div>  
+  </div>
+  <br>
+</div>
+<div class="link">
+  <button routerLink="" mat-raised-button>Volta a home</button>
+</div>  
+<br>

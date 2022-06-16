@@ -1,0 +1,195 @@
+{
+  "users": [
+    {
+      "email": "fulano@xxx.xx",
+      "password": "$2a$10$UXe74s2UxGk3XqlFS5ntOehghu8cZe6Z.jR3LilRDWtLHAskGWGcG",
+      "id": 1
+    },
+    {
+      "email": "ciclano@xxx.xx",
+      "password": "$2a$10$rP6UOqsGLZMnCdrFNBH4x.vrqO1CjEsIFOMqdwqYqVEaC2VZB4KfW",
+      "id": 2
+    },
+    {
+      "email": "beltrano@xxx.xx",
+      "password": "$2a$10$0y/5dxpZ2tGR1O2SuKoKNuIrvD1zqx/t6UZOuNL5GXj6xXFsxPkUa",
+      "id": 3
+    }
+  ],
+  "consoles": [
+    {
+      "marca": "Xbox",
+      "nome": "Xbox Series S",
+      "descricao": "branco",
+      "imagem": "",
+      "preco": "2.999,00",
+      "id": 1
+    },
+    {
+      "marca": "Playstation",
+      "nome": "Playsation 5 Digital",
+      "descricao": "branco",
+      "imagem": "",
+      "preco": "5.999,00",
+      "id": 2
+    },
+    {
+      "marca": "Nintendo",
+      "nome": "Nintendo Switch",
+      "descricao": "vermelho",
+      "imagem": "",
+      "preco": "2.199,00",
+      "id": 3
+    }
+  ],
+  "jogos": [
+    {
+      "marca": "Microsoft",
+      "nome": "Battefield 2042",
+      "descricao": "16 anos",
+      "imagem": "",
+      "preco": "100,00",
+      "id": 1
+    },
+    {
+      "marca": "Microsoft",
+      "nome": "Farcry 6",
+      "descricao": "18 anos",
+      "imagem": "",
+      "preco": "101,00",
+      "id": 2
+    },
+    {
+      "marca": "Microsoft",
+      "nome": "Hunting 2 Simulator",
+      "descricao": "16 anos",
+      "imagem": "",
+      "preco": "102,00",
+      "id": 3
+    },
+    {
+      "marca": "Microsoft",
+      "nome": "Little hope",
+      "descricao": "16 anos",
+      "imagem": "",
+      "preco": "103,00",
+      "id": 4
+    },
+    {
+      "marca": "Microsoft",
+      "nome": "Minecraft dungeons",
+      "descricao": "",
+      "imagem": "",
+      "preco": "104,00",
+      "id": 5
+    },
+    {
+      "marca": "Playstation",
+      "nome": "Elden ring",
+      "descricao": "16 anos",
+      "imagem": "",
+      "preco": "200,00",
+      "id": 6
+    },
+    {
+      "marca": "Playstation",
+      "nome": "Ghost of tsushima",
+      "descricao": "18 anos",
+      "imagem": "",
+      "preco": "201,00",
+      "id": 7
+    },
+    {
+      "marca": "Playstation",
+      "nome": "Ghostwire tokio",
+      "descricao": "14 anos",
+      "imagem": "",
+      "preco": "202,00",
+      "id": 8
+    },
+    {
+      "marca": "Playstation",
+      "nome": "Horizon forbidden west",
+      "descricao": "",
+      "imagem": "",
+      "preco": "203,00",
+      "id": 9
+    },
+    {
+      "marca": "Playstation",
+      "nome": "Metro exodus",
+      "descricao": "",
+      "imagem": "",
+      "preco": "204,00",
+      "id": 10
+    },
+    {
+      "marca": "Nintendo",
+      "nome": "American fugitive",
+      "descricao": "",
+      "imagem": "",
+      "preco": "300,00",
+      "id": 11
+    },
+    {
+      "marca": "Nintendo",
+      "nome": "Final fantasy",
+      "descricao": "",
+      "imagem": "",
+      "preco": "301,00",
+      "id": 12
+    },
+    {
+      "marca": "Nintendo",
+      "nome": "Fire emblem three houses",
+      "descricao": "",
+      "imagem": "",
+      "preco": "302,00",
+      "id": 13
+    },
+    {
+      "marca": "Nintendo",
+      "nome": "Mariokart deluxe 8",
+      "descricao": "",
+      "imagem": "",
+      "preco": "303,00",
+      "id": 14
+    },
+    {
+      "marca": "Nintendo",
+      "nome": "Metroid dread",
+      "descricao": "",
+      "imagem": "",
+      "preco": "304,00",
+      "id": 15
+    }
+  ],
+  "pcs": [
+    {
+      "marca": "Game Mania",
+      "nome": "PC Gamer",
+      "descricao": "Core i7 4TB SSD Nve 32GB DDR5",
+      "imagem": "",
+      "preco": "7.999,00",
+      "id": 1
+    }
+  ],
+  "telefones": [
+    {
+      "marca": "Apple",
+      "nome": "Iphone 13",
+      "descricao": "Branco",
+      "imagem": "",
+      "preco": "7.999,00",
+      "id": 1
+    },
+    {
+      "marca": "Samsung",
+      "nome": "Samsung S22",
+      "descricao": "Branco",
+      "imagem": "",
+      "preco": "5.999,00",
+      "id": 2
+    }
+  ]
+}
